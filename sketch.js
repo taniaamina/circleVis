@@ -120,7 +120,7 @@ function draw() {
   stroke(255);
 
   // Draw a square with size based on volume
-  square((width / 2)- (rms*200)/2, height / 2, rms * 200);
+  square((windowWidth / 2)- (rms*200)/2, windowHeight / 2, rms * 200);
 
   // FFT analysis for beatDetecting (circle shapes) and "lighthing".
   let spectrum = fft.analyze();
@@ -132,7 +132,7 @@ function draw() {
     ellipseSize *= 0.95; 
   }
   
-  ellipse(width/2, height/2, ellipseSize);
+  ellipse(windowWidth/2, windowHeight/2, ellipseSize);
 
   beginShape();
   for (i = 0; i < spectrum.length; i++) {
