@@ -1,6 +1,6 @@
 # Music visualisation through p5.js
 #
-# Upload a song of your choice and enjoy its characteristics visualised in 
+# Upload a song of your choice and enjoy it's characteristics visualised in 
 # this webapp that is built with a little help from p5.js and randomColor.js. 
 # 
 # The amplitude of the song is represented by a square, the amplitude at 
