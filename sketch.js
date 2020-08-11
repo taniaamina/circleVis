@@ -120,7 +120,7 @@ function draw() {
   stroke(255);
 
   // Draw a square with size based on volume
-  square((windowWidth / 2)- (rms*200)/2, windowHeight / 2, rms * 200);
+  square((windowWidth / 2)- (rms*200)/2, (windowHeight / 2) - (rms*200)/2, rms * 200);
 
   // FFT analysis for beatDetecting (circle shapes) and "lighthing".
   let spectrum = fft.analyze();
