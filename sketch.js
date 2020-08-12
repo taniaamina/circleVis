@@ -104,8 +104,8 @@ function stars() {
 
 function draw() {
   //Background with gradient
-  setGradient(0, 0, width, height, b1, b2, Y_AXIS);
-  setGradient(width, 0, width, height, b2, b1, Y_AXIS);
+  setGradient(0, 0, windowWidth, windowHeight, b1, b2, Y_AXIS);
+  setGradient(windowWidth, 0, windowWidth, windowHeight, b2, b1, Y_AXIS);
 
   //Circle
   fill(circleColor[0]); 
